@@ -29,6 +29,7 @@ public class Exercicio3 {
             System.out.print("informe o sexo (M/F): ");
             sexo = scan.next();
 
+
         }while(!sexo.equalsIgnoreCase("m") && !sexo.equalsIgnoreCase("f") );
 
         do{
